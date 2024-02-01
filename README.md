@@ -1,3 +1,3 @@
 # SUPER STORE ANALISIS
 
-## _Performed data workflow management, scheduling, data visualization, and data analysis to Distribution of Product Sales Across Various Regions using Docker, Elastic Search, Apache Airflow, and Kibana._
+ _Executed comprehensive data workflow management, scheduling, and analysis for analyzing the Distribution of Product Sales Across Various Regions. Leveraged advanced tools including Docker for containerization, Elastic Search for efficient data retrieval, Apache Airflow for streamlined workflow orchestration, and Kibana for powerful data visualization, resulting in significant achievements.._

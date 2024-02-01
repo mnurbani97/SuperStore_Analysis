@@ -1,0 +1,29 @@
+URL Acuan : https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset
+
+# Syntax DDL
+
+CREATE TABLE table_m3(
+	"Ship Mode"		VARCHAR
+	,"Segment"		VARCHAR
+	,"Country"		VARCHAR
+	,"City"			VARCHAR
+	,"State"		VARCHAR
+	,"Postal Code"		INTEGER
+	,"Region"		VARCHAR
+	,"Category"		VARCHAR
+	,"Sub-Category" 	VARCHAR
+	,"Sales"		FLOAT
+	,"Quantity"		INTEGER
+	,"Discount"		FLOAT
+	,"Profit"		FLOAT
+);
+
+# Syntax DML
+
+SET datestyle TO 'ISO,DMY';
+
+COPY table_m3("Ship Mode", "Segment", "Country", "City", "State", "Postal Code", "Region", "Category", "Sub-Category", 
+              "Sales", "Quantity", "Discount", "Profit")
+FROM '/tmp/SampleSuperstore.csv'
+DELIMITER ','
+CSV HEADER;
